@@ -1,5 +1,5 @@
-static long binarySearch(int h) {
-long l = 1, r = h;
+		static long binarySearch(int h) {
+			long l = 1, r = h;
 			while (l < r) {
 				long mid = (l + r) >> 1;
 				long ans = 0;
@@ -8,5 +8,5 @@ long l = 1, r = h;
 				if (ans >= h) r = mid;
 				else l = mid + 1;
 			}
-  return ans;
-}
+  			return ans;
+		}
