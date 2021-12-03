@@ -13,6 +13,7 @@ public class template {
     		}
     		pw.print(sb.toString());
    		pw.close();
+	}
  
 	static class FastScanner {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,5 +22,6 @@ public class template {
 		int nextInt() {return Integer.parseInt(next());}
 		long nextLong() {return Long.parseLong(next());}
 		double nextDouble() {return Double.parseDouble(next());}
-		long[] readArray(int n) { long[] a = new long[MAX]; for (int i = 1; i <= n; i++) {a[i] = nextLong();} return a;}
+		long[] readArray(int n) { long[] a = new long[n]; for (int i = 1; i <= n; i++) {a[i] = nextLong();} return a;}
 	}
+}
