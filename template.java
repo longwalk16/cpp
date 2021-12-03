@@ -1,12 +1,12 @@
 import java.util.*;
 import java.io.*;
  
-public class A {
+public class template {
  
 	public static void main(String[] args) {
 		FastScanner fs = new FastScanner();
 		PrintWriter pw = new PrintWriter(System.out);
-		StringBuilder sb = new StringBuilder("");
+    StringBuilder sb = new StringBuilder("");
     int t = fs.nextInt();
     for (int tt = 0; tt < t; tt++) {
       
