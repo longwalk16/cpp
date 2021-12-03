@@ -1,5 +1,5 @@
-static double ternarySearch(int times) {
-while (times >= 0) {
+		static double ternarySearch(int times) {
+			while (times >= 0) {
 				m1 = l + (r - l) / 3;
 				m2 = r - (r - l) / 3;
 
@@ -13,5 +13,5 @@ while (times >= 0) {
 				}
 				times--;
 			}
-  return dist(l);
-}
+  			return dist(l);
+		}
